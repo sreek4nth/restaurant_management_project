@@ -14,6 +14,11 @@ body{
     text-align: center;
 
 }
+.main div{
+    background: black;
+    padding: 30px;
+    
+}
 
 .main h1{
     margin-bottom: 15px;

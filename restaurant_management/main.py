@@ -25,7 +25,7 @@ settings.configure(
 django.setup()
 
 def home(request):
-    return Httpresponse('<h1>welcome to my homepage </h1>')
+    return HttpResponse('<h1>welcome to my homepage </h1>')
 
 urlpatterns=[
     path('',home),
